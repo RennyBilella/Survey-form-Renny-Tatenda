@@ -7,14 +7,16 @@
     <title>Survey Form Page</title>
 </head>
 <body>
-    <h1 id="tittle"> Survey Form </h1>
+    <h1 id="title"> Survey Form </h1>
 <p id=description> Its a little survey</p>
 <form id="survey-form">
     
-<input type="text" name="name" id="name"/>
-
+    <label id="name-label" >name</label>
+<input type="text" name="name" id="name" placeholder="Renny Bilella" required/>
+<label id="email-label" >Email</label>
 <input type="email" name="email" id="email" placeholder="enter your Email" required/>
-<input type="number" name="number" id="number" placeholder="1234" max=2000 min=1000 required/>
+<label id="number-label" >Age</label>
+<input type="number" name="number" id="number" placeholder="1234" max=100 min=18 required/>
 
     
 </form>
